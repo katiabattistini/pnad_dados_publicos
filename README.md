@@ -2,11 +2,11 @@
 
 ## Descrição do Projeto
 
-Este projeto consiste em uma análise exploratória dos dados públicos da pesquisa PNAD COVID19 de 2020, realizada entre julho e outubro. O objetivo é extrair insights relevantes sobre diversos aspectos da saúde e do trabalho durante a pandemia, utilizando SQL e Python para o tratamento e análise dos dados, culminando na criação de um dashboard interativo no Power BI.
+Este projeto consiste em uma análise exploratória dos dados públicos da pesquisa PNAD COVID19 de 2020, realizada entre julho e outubro do ano de 2020. O objetivo é extrair insights relevantes sobre automedicação durante a pandemia, utilizando SQL e Python para o tratamento e análise dos dados na criação de um dashboard interativo no Power BI.
 
 # Diagrama
 
-![Minha Imagem](diagrama.png "Diagrama do ETL")
+![alt text](diagrama.PNG)
 
 ## Tecnologias Utilizadas
 
@@ -38,7 +38,7 @@ Este projeto consiste em uma análise exploratória dos dados públicos da pesqu
 
 ## Estudar os dados do repositório
 
-- o arquivo Dicionario_PNAD_COVID_052020_20220621_revisado.xls contém as informações de colunas e significados
+- o arquivo Dicionario_PNAD_COVID_052020_20220621_revisado.xls contém as informações de colunas e significados 
 
 # 1.  Clone o repositório
 ```bash 
@@ -68,10 +68,10 @@ view_final.sql
 
 # 6. Crie relatório no Power BI deskstop
 - Configure a fonte de dados para apontar para o seu banco de dados SQL Server.
-- Após a instalação e configuração, você pode explorar o dashboard no Power BI para visualizar os insights gerados a partir dos dados da PNAD COVID19. O dashboard permite interagir com os dados, filtrando por diferentes dimensões e explorando os gráficos e tabelas dinâmicas
+- Após a instalação e configuração, você pode explorar o dashboard no Power BI para visualizar os insights gerados a partir dos dados da PNAD COVID19. O dashboard permite interagir com os dados, filtrando por diferentes dimensões e explorando os gráficos e tabelas dinâmicas.
 
 # 7. Apresentação para público não técnico
-- O arquivo pnad_covid_katia_battistini.pptx foi elaborado para 
+- O arquivo pnad_covid_katia_battistini.pptx foi elaborado como exemplo de visualizações dos gráficos e as possíveis interpretações para  auxiliar no entendimento e sugerir possíveis ações.
 
 # Contato
 **Kátia Battistini**
