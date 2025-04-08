@@ -6,10 +6,10 @@ import os
 
 # Lista de arquivos de entrada
 arquivos = [
-    r'D:\katia_workbanch\einstein\PNAD_COVID_072020\PNAD_COVID_072020.csv',
-    r'D:\katia_workbanch\einstein\PNAD_COVID_082020\PNAD_COVID_082020.csv',
-    r'D:\katia_workbanch\einstein\PNAD_COVID_092020\PNAD_COVID_092020.csv',
-    r'D:\katia_workbanch\einstein\PNAD_COVID_102020\PNAD_COVID_102020.csv'
+    r'seu_caminho_pessoal_aqui\PNAD_COVID_072020\PNAD_COVID_072020.csv',
+    r'seu_caminho_pessoal_aqui\PNAD_COVID_082020\PNAD_COVID_082020.csv',
+    r'seu_caminho_pessoal_aqui\PNAD_COVID_092020\PNAD_COVID_092020.csv',
+    r'seu_caminho_pessoal_aqui\PNAD_COVID_102020\PNAD_COVID_102020.csv'
 ]
 
 # Dicionário para renomear colunas

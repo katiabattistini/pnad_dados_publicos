@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 
 # Dados de conexão
 dados_conexao = (
-    r"mssql+pyodbc://KRB-NITRO\SQLEXPRESS/Einstein?driver=SQL+Server&trusted_connection=yes"
+    r"mssql+pyodbc:r'seus_dados_SQL_Server_aqui\?driver=SQL+Server&trusted_connection=yes"
 )
 
 def testar_conexao(dados_conexao):
@@ -23,10 +23,10 @@ testar_conexao(dados_conexao)
 # Lista de arquivos de entrada
 
 arquivos = [
-    r'D:\katia_workbanch\einstein\PNAD_COVID_072020\PNAD_COVID_072020.csv',
-    r'D:\katia_workbanch\einstein\PNAD_COVID_082020\PNAD_COVID_082020.csv',
-    r'D:\katia_workbanch\einstein\PNAD_COVID_092020\PNAD_COVID_092020.csv',
-    r'D:\katia_workbanch\einstein\PNAD_COVID_102020\PNAD_COVID_102020.csv'
+    r'seu_caminho_pessoal_aqui\PNAD_COVID_072020\PNAD_COVID_072020.csv',
+    r'seu_caminho_pessoal_aqui\PNAD_COVID_082020\PNAD_COVID_082020.csv',
+    r'seu_caminho_pessoal_aqui\PNAD_COVID_092020\PNAD_COVID_092020.csv',
+    r'seu_caminho_pessoal_aqui\PNAD_COVID_102020\PNAD_COVID_102020.csv'
 ]
 
 
