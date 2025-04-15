@@ -77,4 +77,4 @@ view_final.sql
 **Kátia Battistini**
 
 - Email: [katiaseshi@gmail.com]
-- LinkedIn: [linkedin.com/in/katiabattistini]
+- LinkedIn: [https://www.linkedin.com/in/katiabattistini/]
